@@ -1,0 +1,83 @@
+/*
+Template Name: Hospital
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************contact****************/
+#contact{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.contact_2li .form-control{
+margin-top:20px;
+box-shadow:none;
+border-color:#01d28e1f;
+font-size:16px;
+height:50px; 
+ }
+.contact_2li .form_1{
+height:150px; 
+ }
+.contact_2l{
+background:#01d28e1f;
+padding:30px; 
+min-height:490px;
+ }
+.contact_2r{
+background:#01d28e;
+padding:30px; 
+min-height:490px;
+ }
+.contact_2ri .span_1{
+background: #2d3e50;
+width:50px;
+height:50px;
+line-height:50px;
+display:inline-block;
+border-radius:50%;
+font-size:18px;
+text-align:center;
+color:#fff;
+float:left;
+margin-right:10px;
+ }
+.contact_2ri p{
+display:inline-block; 
+ }
+.contact_2ri{
+margin-top:30px; 
+ }
+.contact_2ri p a:hover{
+color:#fff!important;
+ }
+/*********************contact_end****************/
+
+
+@media screen and (max-width : 767px){
+.contact_2l {
+text-align:center; 
+ }
+.contact_2r  {
+text-align:center; 
+ }
+.contact_2ri p{
+display:block;
+margin-top:10px!important; 
+ }
+.contact_2ri .span_1{
+float:none; 
+margin-right:0;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+  }
+@media (min-width:1201px) and (max-width:1366px) {
+
+ }
